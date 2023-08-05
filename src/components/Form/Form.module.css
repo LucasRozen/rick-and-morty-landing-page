@@ -1,0 +1,45 @@
+.newsletter {
+    background-color: #f2f2f2;
+    padding: 5rem 0;
+}
+
+.newsletter label {
+    display: block;
+    margin: 1rem 0;
+}
+
+.newsletter input[type="email"] {
+    padding: 1rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 2rem;
+    width: 100%;
+}
+
+.newsletter button[type="submit"] {
+    background-color: #ff2d55;
+    color: #fff;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.2s ease;
+    border: none;
+    font-size: 1rem;
+}
+
+.newsletter button[type="submit"]:hover {
+    background-color: #e60039;
+}
+
+@media only screen and (max-width: 600px) {
+    .newsletter input[type="email"] {
+        margin-bottom: 1rem;
+    }
+
+    .newsletter button[type="submit"] {
+        font-size: 0.9rem;
+    }
+
+    
+}

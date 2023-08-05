@@ -1,0 +1,28 @@
+.cta {
+    background-color: #ff2d55;
+    color: #fff;
+    text-align: center;
+    padding: 5rem 0;
+}
+
+.cta h2 {
+    margin: 0 0 2rem;
+}
+
+.cta .btn_primary {
+    margin-top: 2rem;
+}
+
+.btn_primary:hover {
+    background-color: #e60039;
+}
+
+.btn_primary {
+    display: inline-block;
+    background-color: #ff2d55;
+    color: #fff;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.2s ease;
+}
