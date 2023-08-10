@@ -1,9 +1,10 @@
 .hero{
     color: #fff;
     background-color: rgba(0, 0, 0, 0.6);
-    background-image: url("https://i1.wp.com/lavereda.com.ar/wp-content/uploads/2021/05/cuarteto-de-nos.jpg?zoom=1.25&fit=1004%2C565&ssl=1");
+    background-image: url("https://occ-0-7118-778.1.nflxso.net/dnm/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABVF03jmWlfSDYxmdKgDUqSMV6QPj5UJqf6vZ6Y4qD6VktlmDz76v58YuasZZpF6dvL7wVue-SrW1UoEt8QNQXymzXaWLWYoOQ5XX.jpg?r=9b9");
     background-blend-mode: multiply;
-    background-position: center top;
+    background-repeat: no-repeat;
+    background-position: top center;
     background-size: cover;
     text-align: center;
     padding: 10rem 0;

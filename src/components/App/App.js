@@ -4,18 +4,9 @@ import Hero from '../Hero/Hero';
 import Footer from '../Footer/Footer';
 import CardsContainer from '../CardsContainer/CardsContainer';
 
-import Cta from '../Cta/Cta';
-import Form from '../Form/Form';
-
 import { Element } from 'react-scroll';
 
 const App = () => {
-  const formFields=[
-    {
-      type: 'email',
-      lbl: 'Correo electrónico:'
-    }
-  ]
   return (
 
     <div className='App'>     
@@ -25,28 +16,17 @@ const App = () => {
       <main>
         <Element name="hero" className="element">
           <Hero 
-            titulo="Cuarteto de Nos" 
-            descripcion="Banda de rock alternativo originaria de Montevideo, Uruguay."
-            txtBtn="Escuchá nuestra música"
+            titulo="Rick y Morty" 
+            descripcion="La colección"
+            txtBtn="Conocé los personajes"
           />
         </Element>
         <Element name="cardsContainer" className="element">
-          <CardsContainer  title="Discografía"/>
-        </Element>
-        <Element name="form" className="element">
-          <Form  
-            title = "Newsletter" 
-            desc = "¡Suscríbete a nuestro newsletter para recibir noticias y novedades sobre el Cuarteto de Nos!"
-            fields = {formFields}
-            txtBtn = "Suscribirse"
-          />
-        </Element>
-        <Element name="cta" className="element">
-          <Cta title = "¿Quieres saber más sobre nosotros?" txtBtn="Lee nuestra biografía"/>
+          <CardsContainer  title="Personajes"/>
         </Element>
       </main>
       <Element name="footer" className="element">
-        <Footer txt="2023 Cuarteto de Nos. Todos los derechos reservados." />
+        <Footer txt="2023 Rick and Morty. Todos los derechos reservados." />
 
       </Element>
     </div>
